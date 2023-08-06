@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url('bg.jpeg');
+    overflow: hidden;
+}
+
+.taskbar
+{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:rgb(28,28,28);
+}
+
+.left
+{
+    justify-self: flex-end;
+    position: absolute;
+    left: 15px;
+}
+
+.right
+{
+    justify-self: flex-end;
+    position: absolute;
+    right: 15px;
+}
+
+.startmenu
+{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -665px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+.widget
+{
+    position: absolute;
+    /* left: 10px; */
+    left: -915px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    transition: all 0.3s ease-in;
+}
+
+.widget img{
+    border-radius: 8px;
+}
