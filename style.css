@@ -46,6 +46,28 @@ body{
     border-radius: 8px;
 }
 
+.search-container
+{
+    position: relative;
+}
+
+.searchicon {
+    position: relative; 
+}
+
+.searchmenu
+{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -660px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+}
+
+.searchmenu img{
+    border-radius: 8px;
+}
+
 .widget
 {
     position: absolute;
