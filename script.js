@@ -4,7 +4,6 @@ let searchicon = document.getElementsByClassName("searchicon")[0]
 let searchmenu = document.getElementsByClassName("searchmenu")[0]
 let widget = document.getElementsByClassName("widget")[0]
 let widgeticon = document.getElementsByClassName("left")[0]
-let body = document.getElementsByClassName("body")[0]
 
 
 starticon.addEventListener("click", ()=>{
